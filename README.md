@@ -50,12 +50,8 @@ Limit request body sizes to prevent slow data transmission.
 
 <!-- - Set reasonable limits for request body based on the requirements. -->
 ###### Use a reverse proxy
-There are better ways to solve this like implementing reverse proxies specialized in mitigate these attacks.
-
-If you have the available resources for
-
-In my opinion, the best approach in most scenarios is to use a dedicated reverse proxy
-specifically designed to mitigate these types of attacks, but I think that is important know  
+In my opinion, the best approach in most scenarios is to use a dedicated reverse proxy designed specifically to mitigate these types of attacks.
+However, it is also important to know how to mitigate this vulnerability in the code.
 
 
 ### References
