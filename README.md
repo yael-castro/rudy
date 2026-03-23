@@ -1,5 +1,5 @@
 # RUDY (Are You Dead Yet?)
-The purpose of this repository is to show some strategies to mitigate RUDY attacks on HTTP servers written with Go.
+During my experience building services with Go, I found a common vulnerability. So, I decided to create a repository explaining how to manage the RUDY vulnerability.
 
 ### Understanding the problem
 By default, the http servers written with Go are vulnerable to `RUDY` attacks and similar attacks, but do not panic,
